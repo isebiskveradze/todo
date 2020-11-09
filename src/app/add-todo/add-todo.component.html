@@ -1,0 +1,17 @@
+<div class="addTodoBtn" *ngIf="!addMode" (click)="addMode = !addMode">
+    <button mat-fab color="accent" aria-label="Example icon button with a bookmark icon">
+        <mat-icon>add</mat-icon>
+      </button>
+</div>
+<div class="addTodoForm" *ngIf="addMode">
+    <form action="" class="newTodoForm" (ngSubmit)="submitNewTodoForm(newTodoForm)" #newTodoForm = "ngForm" >
+        <input class="todoFormInputs" type="text" placeholder="Title" name="formTitle" ngModel>
+        <br>
+        <br>
+        <input class="todoFormInputs" type="text" placeholder="Description" name="formDescription" ngModel>
+        <br>
+        <br>
+        <button class="todoFormButton1" type="submit" mat-raised-button >Add Todo</button>
+        <button class="todoFormButton2" type="submit" mat-raised-button (click)="addMode = !addMode">Cancel Add Todo</button>
+    </form>
+</div>

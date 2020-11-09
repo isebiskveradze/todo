@@ -1,0 +1,60 @@
+.todoModel{
+    padding: 10px;
+    width: 300px;
+    height: 140px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    transition-duration: 0.8s;
+    
+}
+.todoModel:hover{
+    background-color: rgb(109, 196, 109);
+    color: white;
+}
+
+.completed{
+text-decoration: line-through;
+color: gray;
+
+}
+.todoButtons {
+    margin: 3px;
+}
+
+#completedButton{
+    transition-duration: 0.4s;
+}
+#completedButton:hover{
+    background-color: green;
+    color: white;
+}
+#deleteButton{
+    transition-duration: 0.4s;
+}
+#deleteButton:hover{
+    background-color: red;
+    color: white;
+}
+.editButton{
+    transition-duration: 0.4s;
+}
+.editButton:hover{
+    background-color: blue;
+    color: white;
+}
+#saveChangesButton{
+    transition-duration: 0.4s;
+}
+#saveChangesButton:hover{
+    background-color: green;
+    color: white;
+}
+.redButton{
+    transition-duration: 0.4s;
+}
+.redButton:hover{
+    background-color: red;
+    color: white;
+}

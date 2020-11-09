@@ -1,0 +1,32 @@
+
+.incompleted{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+    width: 1100px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.Completed{
+    
+    text-align: center;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    width: 1100px;
+    border-radius: 30px;
+}
+.hr1{
+    border: 3px solid green;
+    border-radius: 40%;
+    width: 90%;
+}
+.todoClass{
+    margin: 0 auto;
+}

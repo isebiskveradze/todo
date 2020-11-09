@@ -1,0 +1,53 @@
+.addTodoBtn{
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 100px;
+    margin: 50px auto;
+}
+.addTodoForm{
+    width: 700px;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+}
+.todoFormInputs {
+    margin: 0 auto;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px;
+    transition-duration: 0.4s;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    
+}
+.todoFormInputs:focus{
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+.todoFormInputs:hover{
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.24), 0 0 0 6px rgba(0,0,0,0.19);
+}
+.todoFormButton1{
+    width: 50%;
+    border-radius: 20px 0px 0px 20px ;
+    transition-duration: 0.4s;
+}
+.todoFormButton2{
+    width: 50%;
+    border-radius: 0px 20px 20px 0px;
+    transition-duration: 0.4s;
+}
+.todoFormButton1:hover{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,128,0,0.24), 0 17px 50px 0 rgba(0,128,0,0.19);
+
+}
+.todoFormButton2:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(255,0,0,0.24), 0 17px 50px 0 rgba(255,0,0,0.19);
+}

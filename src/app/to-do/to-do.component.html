@@ -1,0 +1,22 @@
+<div class="todoModel">
+  <div class="notEditMode" *ngIf="!editMode">
+    <h3 [ngClass]="{
+      'completed': this.todo.completed
+    }" (click)='isCompleted()'>{{todo.title}}</h3>
+    <h5 [ngClass]="{
+      'completed': this.todo.completed
+    }" (click)='isCompleted()'>{{todo.description}}</h5>
+  </div>
+  <div class="editMode" *ngIf="editMode">
+    <input type="text" [(ngModel)]="todo.title">
+    <input type="text" [(ngModel)]="todo.description">
+  </div>
+    
+    
+    <button class="todoButtons" id="completedButton" mat-raised-button *ngIf="!editMode" (click)="isCompleted()">{{buttonCompleted}}</button>
+    <button class="todoButtons"  id="deleteButton"  mat-raised-button (click)="deleteTodoFunc()" *ngIf="!editMode">Delete</button>
+    <button class="todoButtons" id="saveChangesButton"  mat-raised-button *ngIf="editMode" (click)='editTodoFunc()'>Save Changes</button>
+    <button class="todoButtons" id="editButton" [ngClass]="{'editButton': !editMode,'redButton': editMode}"  mat-raised-button  (click)="canselFunc()">{{editButton}}</button>
+    
+
+  </div>
