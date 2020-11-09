@@ -1,13 +1,13 @@
 {
   "todos": [
     {
-      "completed": false,
+      "completed": true,
       "title": "დილის ვარჯიში",
       "description": "07:00 საათზე უნდა გავიდე სარბენად",
       "id": 8
     },
     {
-      "completed": false,
+      "completed": true,
       "title": "ცხოველების გამოკვება",
       "description": "ვაჭამო კატას 09:00 საათზე",
       "id": 9
@@ -17,6 +17,18 @@
       "title": "საქმიანი შეხვედრა",
       "description": "14:00 საათზე შეხვედრა რედისონში",
       "id": 10
+    },
+    {
+      "completed": false,
+      "title": "ვახშამი",
+      "description": "19:00 საათზე ვვახშმობ მეგობრებთან ერთად",
+      "id": 11
+    },
+    {
+      "completed": false,
+      "title": "სერიალის ყურება",
+      "description": "22:00 საათზე იწყება ბლანკოს ქვრივი :დ",
+      "id": 12
     }
   ]
 }
